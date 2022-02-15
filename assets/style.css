@@ -5,8 +5,24 @@ body {
   width: 100%;
   margin: 0;
 }
+.bottom {
+  position: relative;
+  bottom: 50px;
+  left: 170px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.photo {
+  position: relative;
+  bottom: 50px;
+  left: 180px;
+}
 
-h1,
+h1 {
+  position: relative;
+  top: 30px;
+  left: 690px;
+}
 h2 {
   text-align: center;
 }
@@ -14,46 +30,59 @@ h2 {
 * {
   font-family: Cambria, serif;
 }
+p {
+  display: inline;
+  width: 800px;
+  padding: 5px;
+}
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
+#one div #two div #three div {
+  width: 50%;
+  justify-self: center;
+}
+
+#one,
+#two,
+#three {
+  display: grid;
+  justify-content: center;
+}
+
 .button {
-  border: none;
-  color: #9d8661;
-  padding: 35px 640px;
-  text-align: center;
-  text-decoration: white;
-  display: inline-block;
-  font-size: 20px;
-  margin: 8px 4px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 55px;
+}
+.button button {
   border-radius: 20px;
   cursor: pointer;
+  background-color: #9d8661;
+  color: white;
+  width: 150px;
+  height: 30px;
 }
 h3 {
   position: relative;
   text-align: center;
 }
-#id1 {
-  width: 50%;
-}
 
 .connect div {
-  display: grid;
+  display: inline;
   justify-content: center;
-}
-.contact {
+  line-height: 1.5em;
   width: 50%;
+  padding-left: 50px;
+  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-left: 85px;
+  word-spacing: 25px;
 }
 .connect {
   display: flex;
-}
-
-.link {
-  margin-left: 750px;
-  position: relative;
-  text-align: center;
-  bottom: 20px;
+  padding: 0 22%;
 }
