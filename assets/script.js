@@ -1,5 +1,5 @@
-document.getElementById("myBtn").addEventListener("click", displayDate);
+<button id="myBtn"></button>
 
-function displayDate() {
-  document.getElementById("myBtn").innerHTML = Date();
-}
+ document.getElementById("myBtn").onclick = function () {
+        location.href = "www.https://www.lizandez.com.au/.com";
+    };
