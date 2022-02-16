@@ -1,8 +1,9 @@
-html,body {
-  margin:0;
-  padding:0;
-  overflow-x:hidden;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .banner img {
   width: 100%;
@@ -24,8 +25,9 @@ html,body {
 h1 {
   position: relative;
   top: 30px;
-  left: 690px;
+  right: 100px;
 }
+h1,
 h2 {
   text-align: center;
 }
@@ -84,8 +86,8 @@ h3 {
   padding-left: 50px;
   padding-bottom: 100px;
   padding-top: 70px;
-  padding-left: 85px;
-  word-spacing: 25px;
+  padding-left: 80px;
+  word-spacing: 10px;
 }
 .connect {
   display: flex;
